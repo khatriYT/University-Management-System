@@ -111,7 +111,7 @@ public class AddTeacher extends JFrame implements ActionListener{
         tfxii.setBounds(200, 350, 150, 30);
         add(tfxii);
         
-        JLabel lblaadhar = new JLabel("Aadhar Number");
+        JLabel lblaadhar = new JLabel("CNIC Number");
         lblaadhar.setBounds(400, 350, 200, 30);
         lblaadhar.setFont(new Font("serif", Font.BOLD, 20));
         add(lblaadhar);

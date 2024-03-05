@@ -171,7 +171,7 @@ public class UpdateStudent extends JFrame implements ActionListener{
                 tfemail.setText(rs.getString("email"));
                 labelx.setText(rs.getString("class_x"));
                 labelxii.setText(rs.getString("class_xii"));
-                labelaadhar.setText(rs.getString("aadhar"));
+                labelaadhar.setText(rs.getString("CNIC"));
                 labelrollno.setText(rs.getString("rollno"));
                 tfcourse.setText(rs.getString("course"));
                 tfbranch.setText(rs.getString("branch"));
@@ -195,7 +195,7 @@ public class UpdateStudent extends JFrame implements ActionListener{
                         tfemail.setText(rs.getString("email"));
                         labelx.setText(rs.getString("class_x"));
                         labelxii.setText(rs.getString("class_xii"));
-                        labelaadhar.setText(rs.getString("aadhar"));
+                        labelaadhar.setText(rs.getString("CNIC"));
                         labelrollno.setText(rs.getString("rollno"));
                         tfcourse.setText(rs.getString("course"));
                         tfbranch.setText(rs.getString("branch"));
